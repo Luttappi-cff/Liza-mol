@@ -1,4 +1,4 @@
-//PLUGIN BY SOURAVKL11 COPY WITH CREDIT
+//PLUGIN BY Luttappi COPY WITH CREDIT
 
 const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
@@ -21,12 +21,12 @@ Asena.addCommand({pattern: 'info', fromMe: false, desc: 'Shows bot information a
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `` + Config.BOTSK + ` *BOT CREATED BY* ` + Config.PLK +`
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Liza.jpg, caption: `` + Config.BOTSK + ` *BOT CREATED BY* ` + Luttappi FF+`
     
     ----- ` + Config.BOTSK + ` -----
     
 ╭─➤ 𝗜𝗡𝗙𝗢 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 »
-│❖ *ᴀᴜᴛʜᴏʀ* : ` + Config.PLK + `
+│❖ *ᴀᴜᴛʜᴏʀ* : ` + Luttappi ff + `
 │❖ *ᴋᴇʀɴᴇʟ* : ʟɪɴᴜx
 │❖ *ɪɴꜱᴛᴀɢʀᴀᴍ* : ` + Config.SLINK + `
 │❖ *ᴡʜᴀᴛꜱᴀᴘᴘ* : ᴄᴏᴍɪɴɢ ꜱᴏᴏɴ...
